@@ -53,8 +53,9 @@ Heart_Disease_Project/
 
 
 Run the Streamlit app
+```bash
 python -m streamlit run ui/app.py
-
+```
 
 eatures Used
 Age
