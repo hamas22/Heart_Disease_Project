@@ -17,7 +17,7 @@ def user_input_features():
     oldpeak = st.number_input('ST depression induced by exercise relative to rest', min_value=0.0, max_value=10.0, value=1.0, format="%.1f")
     slope = st.selectbox('Slope of the peak exercise ST segment', options=[0,1,2])
     ca = st.selectbox('Number of major vessels colored by fluoroscopy', options=[0,1,2,3,4])
-    thal = st.selectbox('Thalassemia', options=[3,6,7])  # ملاحظة: القيم هنا بناءً على الداتا الأصلية (3 = normal, 6 = fixed defect, 7 = reversible defect)
+    thal = st.selectbox('Thalassemia', options=[3,6,7])  
 
     data = {
         'age': age,
